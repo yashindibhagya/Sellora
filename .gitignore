@@ -1,0 +1,42 @@
+### Secrets
+.env
+.env.*
+!.env.example
+
+### Node / JS
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+### TypeScript build output
+dist/
+build/
+out/
+*.tsbuildinfo
+
+### Logs
+logs/
+*.log
+
+### OS / Editor
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+### React Native / Expo
+.expo/
+.expo-shared/
+*.jks
+*.keystore
+*.p8
+*.p12
+*.mobileprovision
+
+### Prisma
+*.db
+*.db-journal
